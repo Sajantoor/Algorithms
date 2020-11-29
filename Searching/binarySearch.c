@@ -24,9 +24,3 @@ int binary_search_rec(int arr[], int n, int item)  {
   // id is not in the array
   return -1;
 }
-
-int main() {
-    int arr[] = {1, 4, 5, 8};
-    int res = binary_search_rec(arr, 4, 8);
-    printf("res: %d", res); 
-}
