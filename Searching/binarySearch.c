@@ -1,12 +1,7 @@
-/*  Instructions:
-    Recursively search through an array to find an item and returns its index if found or -1 if not.
-    The array is sorted therefore if item is bigger than the halfway point the item must be in the bigger half, 
-    If item is smaller than the halfway point, item must be in smaller half.
-*/
 #include <stdio.h> 
 
 // returns index of item if found or -1 if not found -> Sorted
-int binary_search_rec(int arr[], int n, int item)  {
+int binary_search_rec(int* arr, int n, int item)  {
   static int i = 0; // keeps track starting position
   int half = i + (n - i) / 2; // half of the array 
 

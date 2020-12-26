@@ -1,12 +1,3 @@
-/*  Instructions: 
-    Recursively sort the first half of the array, then the second half, then merge the two halfs in the same array. O(1) memory
-    Run time: O(n^2) for naive approach
-    Run time: O(NlogN) for better approach using a new array O(n) memory
-    T(N) = T(N/2) + T(N/2) + (n - 1)
-           T(N/2) = Split routine
-           (n - 1) = Worst case merging
-    T(N) = 2T(N/2) + (n - 1)
-*/
 #include <stdio.h> 
 
 // Merge subroutine:

@@ -1,21 +1,3 @@
-/*  Instructions: 
-    Choose an element called it the pivot, rearrange the element in the array so that all element < pivot are to the left of the pivot
-    and all element >= pivot are to the right of the pivot.
-    Recursively sort to the left of the pivot and to the right of the pivot. 
-
-    How do we shoose the pivot: mid_point, first element, last element, at random or we know something about the array (median number)
-    Running time O(nlog(n)) for good pivots: Defined as one that splits the array into equal halves. 
-    
-    T(N) = O(1) + O(n) + 2*T(N/2)
-          Choosing Pivot + Rearranging + Recursion
-    
-    Left pointer: Looks for larger element. 
-    Right pointer: Looks for smaller than pivot. 
-
-    O(nlogn) Best Case -> If middle element is median element
-    O(N^2) Worst Case 
-*/
-
 #include <stdio.h>
 // swaps 2 elements
 void swap(int* a, int* b) {

@@ -1,7 +1,3 @@
-/*  Instructions: Find the smallest element and put it in first position, second smallest second position, etc.
-    O(n^2) run time and O(1) additional memory
-*/
-
 #include <stdio.h> 
 
 void swap(int* a, int* b) {
@@ -10,7 +6,7 @@ void swap(int* a, int* b) {
     *b = tmp;
 }
 
-void selectionSort(int arr[], int len) {
+void selectionSort(int* arr, int len) {
     // index of the minimum element is i
     for (int i = 0; i < len; i++) {
         // if a min is not found, element stays where it is
