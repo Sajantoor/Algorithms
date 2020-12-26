@@ -1,2 +1,2 @@
-# Algorithms 
-Useful algorithms I'm learning in Computer Science.
+# Computer Science Algorithms 
+A collection of algorithms, abstract data types and other code I'm learning in Computer Science.
