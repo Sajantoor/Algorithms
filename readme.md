@@ -119,6 +119,8 @@ Recurrence Relation:
 Implementation: 
 ```c
 int binary_search_rec(int* arr, int n, int item) {
-
+    ...
 }
 ```
+
+[View code](../main/Searching/binarySearch.c)

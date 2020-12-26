@@ -21,12 +21,3 @@ void selectionSort(int* arr, int len) {
         swap(&arr[i], &arr[minIndex]);
     }
 }
-
-void main() {
-    int arr[5] = {5, 12, 1, 5, 2};
-    selectionSort(arr, 5);
-    
-    for (int i = 0; i < 5; i++) {
-        printf("%d \n", arr[i]);
-    }
-}
