@@ -20,7 +20,7 @@ queue_t* queue_create() {
 // add a given item to the queue
 // if everything works ok, returns same q as the input
 // if malloc fails, returns NULL
-queue_t* enqueue(queue_t* q, int item) {
+queue_t* enqueue(queue_t* q, void* item) {
   // validate parameters 
   if (q == NULL) {
     return NULL;

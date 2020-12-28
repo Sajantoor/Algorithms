@@ -1,7 +1,7 @@
 #include <stdbool.h>
 
 struct Node { 
-  int data; 
+  void* data; 
   struct Node* next; 
 }; 
 
@@ -18,7 +18,7 @@ queue_t* queue_create();
 // add a given item to the queue
 // if everything works ok, returns same q as the input
 // if malloc fails, returns NULL
-queue_t* enqueue(queue_t* q, int item);
+queue_t* enqueue(queue_t* q, void* item);
 
 // removes an element from the queue
 // Pre condition: queue is not empty
